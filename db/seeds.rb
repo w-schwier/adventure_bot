@@ -7,3 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Theme.create(:id => 1, :name=>'Lite')
+
+Response.create(message: "Which way?", result: "Continue")
+# Option.create(message: "Left", respone_id: 1)
+# Option.create(message: "Right", response_id: 1)

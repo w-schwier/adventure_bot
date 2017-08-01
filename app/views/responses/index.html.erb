@@ -1,0 +1,7 @@
+<% if Response.all.any? %>
+  <% Response.all.each do |response| %>
+    <h2><%= response.name %></h2>
+  <% end %>
+<% else %>
+  <h1>No responses yet</h1>
+<% end %>
