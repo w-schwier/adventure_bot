@@ -7,7 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Theme.create(:id => 1, :name=>'Lite')
+# Response.delete_all
+# Option.delete_all
 
 Response.create(message: "Which way?", result: "Continue")
-# Option.create(message: "Left", respone_id: 1)
-# Option.create(message: "Right", response_id: 1)
+Option.create(message: "Left", next_response_id: 2, response_id: 1)
+Option.create(message: "Right", next_response_id: 2, response_id: 1)
