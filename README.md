@@ -23,7 +23,7 @@ In order set up the databases and seed them with the adventure, run ```bin/rake 
 
 To start the server run ```bin/rails s```
 
-Then visit [localhost.3000/game](http://localhost.3000/game)
+Then visit [localhost:3000/game](http://localhost.3000/game)
 
 
 ### User Stories
