@@ -2,7 +2,7 @@
 
 ### What is it?
 
-Adventure-bot is a simple web-app that guides the user through a journey in a magical far off land.
+Adventure-bot is a simple web-app that guides the user through a journey in a magical, far-off land.
 
 ### My Approach
 
@@ -13,7 +13,7 @@ Responses could have many options, whereas each option had one response and lead
 
 ## Installation
 
-Open up terminal and type ```git clone https://github.com/w-schwier/adventure_bot```
+Open up terminal, change to the directory you want the repo and type ```git clone https://github.com/w-schwier/adventure_bot```
 
 Change into the directory ```cd adventure_bot```
 
@@ -40,3 +40,9 @@ I had some trouble getting tests to run multiple times in a row. I solved this b
 
 Unfortunately I didn't complete any of the admin features I wanted to add, but I have an idea of how to achieve these.
 I would create an admin class using devise. There would be a check to see if there was a current user, ie. game can be played without signing in, that would enable an admin to edit the stories, add more or change the outcomes.
+
+### Future Features
+
+I would like to add some admin features as discussed above, but also the ability to create an adventure from scratch, save and share your adventures.
+
+A front-end rather than the web 1.0 feel the app has at the moment.
