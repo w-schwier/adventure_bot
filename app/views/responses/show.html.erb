@@ -5,6 +5,6 @@
 <% end %>
 <% if @current_response.result == 'fail' %>
   <%= button_to 'Unlucky! Fancy another go?', game_index_url, method: 'get'%>
-<% elsif @current_response.result == 'fail' %>
+<% elsif @current_response.result == 'pass' %>
   <%= button_to 'Nicely done! Replay?', game_index_url, method: 'get'%>
 <% end %>
