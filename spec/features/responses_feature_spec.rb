@@ -1,6 +1,11 @@
 require 'rails_helper'
 
 feature 'responses' do
+  include SessionHelper
+  before do
+    seed_data_base
+  end
+
   scenario 'checks page has response' do
     visit '/game'
     click_link 'Begin'

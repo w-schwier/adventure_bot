@@ -3,3 +3,6 @@
 <% @current_options.all.each do |option| %>
   <%= button_to option.message, game_response_path(1, option), method: 'get' %>
 <% end %>
+<% if @current_response.result == 'fail' %>
+  <%= button_to 'Replay', game_index_url, method: 'get'%>
+<% end %>
