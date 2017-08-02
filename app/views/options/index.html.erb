@@ -1,0 +1,7 @@
+<% if Option.all.any? %>
+  <% Option.all.each do |option| %>
+    <h2><%= option.message %></h2>
+  <% end %>
+<% else %>
+  <h1>No options yet</h1>
+<% end %>

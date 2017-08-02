@@ -1,9 +1,2 @@
 <h1>Welcome to Adventure Bot. When ready, click below to start you journey.</h1>
-<% if Response.all.any? %>
-  <% Response.all.each do |response| %>
-    <h2><%= response.message %></h2>
-  <% end %>
-<% else %>
-  <h1>No responses yet</h1>
-<% end %>
-<%= button_to "Begin", method: :get %>
+<a href='1/responses'>Begin Adventure</a>
